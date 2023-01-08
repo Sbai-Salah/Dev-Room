@@ -1,0 +1,287 @@
+*{
+    font-family: monospace;
+}
+
+/** -------- NavigationBar -------- **/
+.navbar {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #0D3894;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    color: white;
+}
+
+.nav {
+    margin-left: 2vh;
+    font-weight: bold;
+}
+
+/** -------- Home -------- **/
+#home {
+    height: 120vh;
+    width: 100vw;
+    background-image: url("../images/main3.gif");
+    background-size: cover;
+    text-align: center;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 80px;
+    margin: 0;
+    height: 100px;
+    margin-top: 20vh;
+
+}
+
+#home h1 {
+    text-shadow: 1px 1px 2px black;
+
+}
+
+h2 {
+    color: rgb(255,255,255);
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top: 94px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.icons {
+    margin-top: 3em;
+}
+
+.icon {
+    color: white;
+    font-size: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.icon:hover {
+    color: #d4d4d4;
+}
+
+.scrolldown a{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/** -------- About -------- **/
+#about {
+    font-family: 'opensans-semibold', sans-serif; 
+    background-color: #2e2e2e;
+    background-color: #315221;
+    margin: 0;
+    padding: 0;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 100vw;
+    height: auto;
+}
+
+
+.me {
+    width: 100%;
+    text-align: center;
+}
+
+.about-cols {
+    padding-top: 1em;
+    font-size: 22px;
+    color: white;
+    border: white;
+    border-width: 2px;
+}
+
+.image-col {
+    text-align: center;
+}
+
+.about-cols h3 {
+    margin-top: 0.5em;
+}
+
+.about-cols p {
+    font-size: 20px;
+}
+
+.about-cols a {
+    color: white;
+    text-decoration-line: underline;
+}
+
+/** -------- CV -------- **/
+.resume-container {
+    margin-top: 5em;
+    font-family: 'opensans-semibold', sans-serif; 
+}
+
+.resume-container h3 span {
+    text-align: left;
+    border-bottom: 3px solid #c6c955;
+    font-family: 'opensans-semibold', sans-serif; 
+}
+
+.resume-container h5{
+    font-size: 23px;
+    padding-bottom: 0.25em;
+    font-family: 'opensans-semibold', sans-serif; 
+}
+
+.resume-container h6{
+    font: 16px/24px 'librebaskerville-italic', serif;
+    font-style: italic;
+    padding-bottom: 1em;
+}
+
+.resume-container p{
+    font-family: sans-serif;
+}
+
+.interests {
+    margin-top: 1em;
+}
+
+.fun-facts {
+    margin-bottom: 2em;
+}
+
+.fact {
+    border: none;
+}
+
+/** -------- Portfolio -------- **/
+#work {
+    background-color: #2e2e2e;
+
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    width: 100vw;
+}
+
+#work h2 {
+    font-family: 'opensans-semibold', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#work p {
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+}
+
+#work .col {
+    padding: 3em;
+    text-align: center;
+}
+
+#work .card {
+    text-align: center;
+    width: '30rem';
+    height: 100%;
+    border-color: dimgray;
+    border-radius: 0.3em;
+    border-width: qpx;
+    box-shadow: 20px 20px 50px rgb(32, 32, 32);
+}
+
+#work .cardimg {
+    margin-top: 2em;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.card-text {
+    font-family: 'opensans-semibold', sans-serif; 
+    color: #333333;
+    padding: 0;
+    padding-top: 0.5em;
+}
+
+#work p {
+    font-family: 'opensans-semibold', sans-serif; 
+    color: #333333;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+}
+
+#work a {
+    text-align: left;
+    padding-top: 0;
+    color: #333333;
+    margin: 0.5em;
+    font-size: 30px;
+    bottom: 1em;
+}
+
+#work a:hover {
+    color: #4f4f4f;
+}
+
+/** -------- Contact -------- **/
+
+#contact h2 {
+    margin-top: 2em;
+    text-align: left;  
+}
+
+#contact h2 span {
+    color: black;
+    border-bottom: 3px solid #c6c955;
+    padding-bottom: 6px;
+}
+
+#contact .listGroup  {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#contact .listItem  {
+    border: none;
+    font-weight: bold;
+}
+
+#contact .listItem a {
+    font-weight: normal;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    background-color: #2e2e2e;
+    padding: 1.5em;
+}
+
+.footer .icon {
+    margin-left: 1em;
+    margin-right: 1em;
+}
